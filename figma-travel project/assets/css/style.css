@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/*root*/
+:root{
+	--primary-color:#1BBC9B;
+	--white:#fff;
+	--black:#000;
+}
+
+.col-1{width:8.33%;}
+.col-2{width:16.67%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.67%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.67;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.67%;}
+.col-12{width:100%;}
+
+.container{width: 1320px;margin: auto;}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.justify-center{justify-content: center;}
+.justify-between{justify-content: space-between;}
+.align-center{align-items:center;}
+.justify-end{justify-content: end;}
+.gap-25{
+	gap: 25px;
+}
+.gap-10{
+	gap: 10px;
+}
+
+/*header section*/
+.nav-bar{
+	padding: 25px 0;
+}
+.colon{
+	color: var(--primary-color);
+	font-weight: 700;
+}
+nav ul li:hover{
+	color: var(--primary-color);
+	cursor: pointer;
+}
+.srch-btn{
+	padding-left:10%;
+}
+.srch-btn button{
+	padding: 5px 30px;
+    font-size: 18px;
+    margin-left: 15px;
+    border-radius: 8px;
+    background-color:var(--primary-color) ;
+    color: var(--white);
+    border:none;
+}
+.srch-btn span{
+	font-size: 25px;
+}
+
+
+
